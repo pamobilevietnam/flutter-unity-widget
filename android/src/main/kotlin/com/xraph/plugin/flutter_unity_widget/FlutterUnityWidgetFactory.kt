@@ -33,7 +33,7 @@ class FlutterUnityWidgetFactory(
 
         return builder.build(
                 id,
-                context,
+                context!!,
                 binaryMessenger,
                 lifecycleProvider
         )
